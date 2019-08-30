@@ -10,10 +10,8 @@ https://aws.amazon.com/blogs/aws/new-port-forwarding-using-aws-system-manager-se
 
 aws
 --
-require
-
-- agent: amazon-ssm-agent >2.3.672
-- iam role:  AmazonSSMManagedInstanceCore
+- amazon-ssm-agent 2.3.672+
+- AmazonSSMManagedInstanceCore(iam role)
 
 
 
@@ -80,9 +78,7 @@ fi
 
 ```console
 $ bash session.sh 80 9999
-```
 
-```
 Starting session with SessionId: yoursessionname-0bd07c08bc955a579
 Port 9999 opened for sessionId yoursessionname-0bd07c08bc955a579
 Connection accepted for session yoursessionname-0bd07c08bc955a579.
