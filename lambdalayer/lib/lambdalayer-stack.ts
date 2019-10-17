@@ -27,5 +27,9 @@ export class LambdalayerStack extends cdk.Stack {
       runtime: lambda.Runtime.PYTHON_3_7,
       layers: [layer],
     });
+
+    new cdk.CfnOutput(this, "lambda", {
+      value: `aws lambda invoke --function-name ${fn.functionName} res.json && cat res.json`,
+    });
   }
 }
