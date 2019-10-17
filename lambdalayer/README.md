@@ -18,6 +18,9 @@ boto3 == 1.9.251
 $ pip3 install -r requirements.txt -t .
 ```
 
+```console
+$ cdk deploy
+```
 
 ```console
 $ aws lambda invoke --function-name LambdalayerStack-MyLayeredLambdaXXXXX-XXXXXX res.json && cat res.json
