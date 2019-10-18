@@ -6,6 +6,8 @@ git clone https://github.com/awslabs/aws-lambda-rust-runtime.git lib/aws-lambda-
 pushd lib/aws-lambda-rust-runtime
 ```
 
+https://github.com/awslabs/aws-lambda-rust-runtime/issues/17
+
 ```
 cat <<'EOF' >> Dockerfile
 FROM lambci/lambda:build-provided
