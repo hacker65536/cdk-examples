@@ -6,6 +6,7 @@ npm i
 ```
 git clone https://github.com/awslabs/aws-lambda-rust-runtime.git lib/aws-lambda-rust-runtime
 pushd lib/aws-lambda-rust-runtime
+git checkout 0ac259a
 ```
 
 https://github.com/awslabs/aws-lambda-rust-runtime/issues/17
