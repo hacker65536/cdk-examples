@@ -88,3 +88,9 @@ aws lambda invoke --function-name LambdarustStack-MyLayeredLambda9A3008D1-XXXXXX
 }
 {"message":"Hello, Rustacean!"}⏎
 ```
+
+
+
+note.
+
+use docker with rootless or `chown -R yourid .` when you need to clean.
