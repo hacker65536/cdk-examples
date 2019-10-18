@@ -95,6 +95,17 @@ aws lambda invoke --function-name LambdarustStack-MyLayeredLambda9A3008D1-XXXXXX
 
 
 
+[lambci / lambda : build-provided](https://hub.docker.com/layers/lambci/lambda/build-provided/images/sha256-ab3e09ef5224171b9be5803cb58b5b5fbeea97852c097da829b0ae6b8a9ce6f3)
+
+```
+sha256:ab3e09ef5224171b9be5803cb58b5b5fbeea97852c097da829b0ae6b8a9ce6f3
+```
+
+```
+docker run --rm lambda_builder cargo --version
+cargo 1.38.0 (23ef9a4ef 2019-08-20)
+```
+
 note.
 
 Use docker with rootless or excute `chown -R yourid. .` when you need to clean.
