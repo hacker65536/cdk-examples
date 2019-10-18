@@ -1,6 +1,8 @@
 # Rust Runtime for lambda
 
-
+```
+npm i
+```
 ```
 git clone https://github.com/awslabs/aws-lambda-rust-runtime.git lib/aws-lambda-rust-runtime
 pushd lib/aws-lambda-rust-runtime
