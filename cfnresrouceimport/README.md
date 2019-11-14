@@ -207,7 +207,7 @@ retain から delete に変更して stack を削除する
 
 ```yaml
 Resources:
-  dyE03B5C78:
+  mytable:
     Type: AWS::DynamoDB::Table
     Properties:
       KeySchema:
