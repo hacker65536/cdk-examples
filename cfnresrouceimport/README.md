@@ -153,7 +153,7 @@ CfnresrouceimportStack: destroying...
 削除されていないことを確認
 
 ```console
-aws2 dynamodb describe-table --table-name CfnresrouceimportStack-dyE03B5C78-TXA722ZZM9LP --output yaml
+$ aws2 dynamodb describe-table --table-name CfnresrouceimportStack-dyE03B5C78-TXA722ZZM9LP --output yaml
 Table:
   AttributeDefinitions:
   - AttributeName: key
@@ -207,7 +207,7 @@ retain から delete に変更して stack を削除する
 
 ```yaml
 Resources:
-  dyE03B5C78:
+  mytable:
     Type: AWS::DynamoDB::Table
     Properties:
       KeySchema:
